@@ -1,1 +1,15 @@
+This application uses Google ML Kit for on-device facial recognition and 3D face mesh generation. Google ML Kit is subject to the Google APIs Terms of Service.
 
+Portions of this software (including Google ML Kit SDK and TensorFlow Lite) are licensed under the Apache License, Version 2.0 (the "License"). You may not use these files except in compliance with the License. You may obtain a copy of the License at:
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.
+
+Copyright 2020-2024 Google LLC. All rights reserved.
+
+Facial Data Processing Our application uses Google ML Kit (Face Mesh Detection) to detect facial landmarks and expressions in real-time to provide the core 3D face tracking features of the app.
+
+Data Collection and Storage: The facial recognition process happens 100% locally on your device. We do NOT collect, store, transmit, or share your facial data, images, or face meshes with our servers or any third parties. All facial mapping data is temporarily processed in your device's volatile memory (RAM) and is immediately discarded once the camera view is closed or the recording is finished.
+
+Saved face templates are stored securely in the app's local private storage on your device, and they never leave your phone.
